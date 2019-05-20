@@ -27,7 +27,7 @@ h1 {
   color: blue;
 } 
 
-#definitionText {
+.definitionText {
     color: red;
     text-align: center;   
 }
