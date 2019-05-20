@@ -2,3 +2,6 @@ name: Hank Quinlan, Horrible Cop
 markdown: kramdown
 
 permalink: /blog/:title
+
+collections:
+  authors:
