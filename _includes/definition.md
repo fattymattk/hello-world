@@ -1,2 +1,1 @@
-# Definition:
-{#myHeader}
+# Definition: {#myHeader}
