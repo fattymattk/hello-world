@@ -1,5 +1,6 @@
 ---
 name: Test def
-layout: definition
 ---
+
+{% include definition.md %}
 This is a test definition.
