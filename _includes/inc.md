@@ -1,1 +1,1 @@
-{{ assign counter = counter | plus: 1 }}
+{% assign counter = counter | plus: 1 %}
