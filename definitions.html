@@ -8,7 +8,7 @@ title: Definitions
 <ul>
   {% for def in site.definitions %}
     <li>
-      <li><a href="/hello-world/{{ def.url }}">{{ def.name }}</a></li>
+      <li><a href="/hello-world{{ def.url }}">{{ def.name }}</a></li>
       <p>{{ def.content | markdownify }}</p>
     </li>
   {% endfor %}
