@@ -1,0 +1,17 @@
+---
+layout: default
+title: Definitions
+---
+
+<h1>Staff</h1>
+
+<ul>
+  {% for def in site.definitions %}
+    <li>
+      <h2>{{ def.name }}</h2>
+      <p>{{ author.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>
+
+
