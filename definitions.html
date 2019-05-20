@@ -9,7 +9,7 @@ title: Definitions
   {% for def in site.definitions %}
     <li>
       <h2>{{ def.name }}</h2>
-      <p>{{ author.content | markdownify }}</p>
+      <p>{{ def.content | markdownify }}</p>
     </li>
   {% endfor %}
 </ul>
