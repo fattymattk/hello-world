@@ -5,3 +5,11 @@ permalink: /blog/:title
 
 collections:
   definitions:
+    output: true
+    
+defaults:
+  - scope:
+      path: ""
+      type: "definitions"
+    values:
+      layout: "definition"
