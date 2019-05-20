@@ -23,7 +23,7 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-#myHeader {
+.myHeader {
   background-color: lightblue;
   color: black;
   padding: 40px;
